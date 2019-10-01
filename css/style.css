@@ -40,13 +40,11 @@ body a:focus {
 }
 /*-- banner --*/ 
 .w3-banner-left{
-    background: url(../images/r2.jpg)no-repeat 0px 0px;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -ms-background-size: cover;
-    background-size: cover;
-    min-height: 550px;
+    background: url(../images/kalsyc3.jpg)no-repeat 0px 0px;
+    background-position: center;
+    object-fit: cover;
+    min-height: 759px;
+    min-width: 720px;
 }
 
 	.w3-banner-right{
@@ -56,7 +54,7 @@ body a:focus {
     -o-background-size: cover;
     -ms-background-size: cover;
     background-size: cover;
-    min-height: 550px;
+    min-height: 759px;
 }
 .w3-banner-left_txt h3 {
     font-size: 5em;
@@ -1234,7 +1232,9 @@ p.footer-w3l-te {
 }
 @media(max-width:320px){
 .w3-banner-left {
-    background: url(../images/r2.jpg)no-repeat -74px 0px;
+    background: url(../images/kalsyc3.jpg)no-repeat -74px 0px;
+    object-fit: cover;
+    background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
